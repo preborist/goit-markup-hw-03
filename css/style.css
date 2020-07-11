@@ -131,12 +131,15 @@ p {
 
 /* LOGO */
 .logo {
-  margin-right: 85px;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+}
+
+.header .logo {
+  margin-right: 85px;
 }
 
 /* BLACK header logo */
@@ -474,11 +477,15 @@ p {
   margin-bottom: 30px;
 }
 
-.portfolio-works-list-item:hover,
-.portfolio-works-list-item:focus {
+.portfolio-works-list-item-link {
+  display: block;
   background: #ffffff;
   border: 1px solid #eeeeee;
-  box-sizing: border-box;
+}
+
+.portfolio-works-list-item-link:hover,
+.portfolio-works-list-item-link:focus {
+  outline: none;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
