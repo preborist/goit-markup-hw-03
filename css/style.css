@@ -480,12 +480,12 @@ p {
 .portfolio-works-list-item-link {
   display: block;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  outline: 1px solid #eeeeee;
 }
 
 .portfolio-works-list-item-link:hover,
 .portfolio-works-list-item-link:focus {
-  border: none;
+  outline: none;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
